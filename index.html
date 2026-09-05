@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8be3b" />
+    <meta name="description" content="An offline Bollywood movie title game." />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Filmi Flip</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Filmi Flip home">
+          <span class="brand-mark">FF</span>
+          <span>FILMI<br />FLIP</span>
+        </a>
+        <button id="filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+          <span aria-hidden="true">⌁</span> Year filter
+        </button>
+      </header>
+
+      <section id="filter-panel" class="filter-panel" hidden aria-label="Year filter">
+        <div class="filter-heading">
+          <div>
+            <p class="eyebrow">Choose your era</p>
+            <h2>Movie year</h2>
+          </div>
+          <button id="clear-filter" class="text-button">All years</button>
+        </div>
+        <div class="year-inputs">
+          <label>From <input id="year-from" type="number" inputmode="numeric" min="1976" max="2026" placeholder="1976" /></label>
+          <span>to</span>
+          <label>To <input id="year-to" type="number" inputmode="numeric" min="1976" max="2026" placeholder="2026" /></label>
+          <button id="apply-filter" class="small-button">Apply</button>
+        </div>
+        <div class="quick-years" aria-label="Quick year ranges">
+          <button data-range="1976,1989">70s &amp; 80s</button>
+          <button data-range="1990,1999">90s</button>
+          <button data-range="2000,2009">2000s</button>
+          <button data-range="2010,2019">2010s</button>
+          <button data-range="2020,2026">2020s</button>
+        </div>
+        <label class="toggle-row">
+          <input id="hide-english-titles" type="checkbox" checked />
+          <span class="toggle-control" aria-hidden="true"></span>
+          <span><strong>Hide English-title films</strong><small>Exclude names containing English words.</small></span>
+        </label>
+      </section>
+
+      <section class="game-area" aria-live="polite">
+        <div class="game-meta">
+          <span id="range-label">All years</span>
+          <span id="progress-label">Loading films…</span>
+        </div>
+        <article class="movie-card" id="movie-card">
+          <p class="card-label">Guess the Bollywood film</p>
+          <div class="clue-wrap">
+            <span class="quote-mark">“</span>
+            <h1 id="movie-clue">Loading…</h1>
+            <span class="quote-mark closing">”</span>
+          </div>
+          <div id="answer-box" class="answer-box" hidden>
+            <span>It’s</span>
+            <strong id="movie-answer"></strong>
+          </div>
+          <button id="reveal-button" class="reveal-button">Reveal answer</button>
+        </article>
+
+        <p id="cycle-note" class="cycle-note">Only clean, non-spoiler translations are included. Every film appears once before a new round begins.</p>
+        <div class="game-actions">
+          <button id="random-button" class="secondary-action"><span aria-hidden="true">↗</span> Random</button>
+          <button id="next-button" class="primary-action">Next movie <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <footer>Made for loud guesses, dramatic reveals, and movie nights.<br />Inspired by Sunita Bindra, my aunt.</footer>
+    </main>
+    <script src="app.js?v=8"></script>
+  </body>
+</html>

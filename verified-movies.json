@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "year": 1974,
+    "original_title": "Aap Ki Kasam",
+    "english_title": "I take Your Oath",
+    "eligible_for_game": false,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 2,
+    "year": 2015,
+    "original_title": "Dharam Sankat Mein",
+    "english_title": "In a Crisis of Duty",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 3,
+    "year": 2024,
+    "original_title": "Auron Mein Kahan Dum Tha",
+    "english_title": "Where Did the Others Have the Strength?",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 4,
+    "year": 2023,
+    "original_title": "Kisi Ka Bhai Kisi Ki Jaan",
+    "english_title": "Someone's Brother, Someone's Beloved",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 5,
+    "year": 2022,
+    "original_title": "Mere Desh Ki Dharti",
+    "english_title": "The Soil of My Country",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 6,
+    "year": 2022,
+    "original_title": "Janhit Mein Jaari",
+    "english_title": "Issued in the Public Interest",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 7,
+    "year": 2025,
+    "original_title": "Aankhon Ki Gustaakhiyan",
+    "english_title": "The Audacities of the Eyes",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 8,
+    "year": 2023,
+    "original_title": "Tumse Na Ho Payega",
+    "english_title": "You Won't Be Able to Do It",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 9,
+    "year": 2024,
+    "original_title": "Khel Khel Mein",
+    "english_title": "While Playing a Game",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 10,
+    "year": 2024,
+    "original_title": "Khwaabon Ka Jhamela",
+    "english_title": "A Tangle of Dreams",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 11,
+    "year": 2002,
+    "original_title": "Mere Yaar Ki Shaadi Hai",
+    "english_title": "My Friend's Wedding",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 12,
+    "year": 1994,
+    "original_title": "Kabhi Haan Kabhi Naa",
+    "english_title": "Sometimes Yes, Sometimes No",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 13,
+    "year": 1977,
+    "original_title": "Hum Kisise Kum Naheen",
+    "english_title": "We Are Not Less Than Anyone",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 14,
+    "year": 1985,
+    "original_title": "Pyaar Jhukta Nahin",
+    "english_title": "Love Does Not Bow Down",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 15,
+    "year": 1992,
+    "original_title": "Dil Aashna Hai",
+    "english_title": "The Heart Is Familiar",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 16,
+    "year": 1990,
+    "original_title": "Mera Pati Sirf Mera Hai",
+    "english_title": "My Husband Is Mine Alone",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 17,
+    "year": 1978,
+    "original_title": "Pati Patni Aur Woh",
+    "english_title": "The Husband, the Wife and the Other One",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 18,
+    "year": 1978,
+    "original_title": "Main Tulsi Tere Aangan Ki",
+    "english_title": "I Am the Basil of Your Courtyard",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 19,
+    "year": 1995,
+    "original_title": "Akele Hum Akele Tum",
+    "english_title": "Alone Me, Alone You",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 20,
+    "year": 1993,
+    "original_title": "Hum Hain Rahi Pyar Ke",
+    "english_title": "We Are Travelers of Love",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 21,
+    "year": 2003,
+    "original_title": "Koi Mil Gaya",
+    "english_title": "Someone Has Been Found",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 22,
+    "year": 2003,
+    "original_title": "Tere Naam",
+    "english_title": "In Your Name",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 23,
+    "year": 2001,
+    "original_title": "Mujhe Kuch Kehna Hai",
+    "english_title": "I Have Something to Say",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 24,
+    "year": 1991,
+    "original_title": "Dil Hai Ki Manta Nahin",
+    "english_title": "The Heart Will Not Listen",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 25,
+    "year": 2001,
+    "original_title": "Tum Bin",
+    "english_title": "Without You",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 26,
+    "year": 2002,
+    "original_title": "Aap Mujhe Achche Lagne Lage",
+    "english_title": "I Started to Like You",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 27,
+    "year": 2002,
+    "original_title": "Hum Tumhare Hain Sanam",
+    "english_title": "I Am Yours, Beloved",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 28,
+    "year": 2004,
+    "original_title": "Mujhse Shaadi Karogi",
+    "english_title": "Will You Marry Me?",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 29,
+    "year": 1994,
+    "original_title": "Yeh Dillagi",
+    "english_title": "This Playfulness of Love",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 30,
+    "year": 2001,
+    "original_title": "Chori Chori Chupke Chupke",
+    "english_title": "Stealthily, Secretly",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 31,
+    "year": 2000,
+    "original_title": "Dulhan Hum Le Jayenge",
+    "english_title": "We Will Take the Bride Away",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 32,
+    "year": 1999,
+    "original_title": "Hum Saath-Saath Hain",
+    "english_title": "We Are Together",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 33,
+    "year": 1999,
+    "original_title": "Bade Dilwala",
+    "english_title": "The Big-Hearted One",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 34,
+    "year": 1998,
+    "original_title": "Dil Se..",
+    "english_title": "From the Heart",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 35,
+    "year": 1998,
+    "original_title": "Pyaar Kiya To Darna Kya",
+    "english_title": "Why Fear If You've Loved?",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 36,
+    "year": 2001,
+    "original_title": "Kabhi Khushi Kabhie Gham",
+    "english_title": "Sometimes Happiness, Sometimes Sorrow",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 37,
+    "year": 2012,
+    "original_title": "Jab Tak Hai Jaan",
+    "english_title": "As Long As There Is Life",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 38,
+    "year": 2015,
+    "original_title": "Dil Dhadakne Do",
+    "english_title": "Let the Heart Beat",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  },
+  {
+    "id": 39,
+    "year": 1990,
+    "original_title": "Aashiqui",
+    "english_title": "Romance",
+    "eligible_for_game": true,
+    "translation_audit_status": "user_verified"
+  }
+]
