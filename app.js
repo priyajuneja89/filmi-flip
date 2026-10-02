@@ -44,7 +44,9 @@
   }
   function mergeAudits(movies, audits) {
     const auditsByMovie = new Map(audits.map((movie) => [`${movie.year}::${movie.original_title}`, movie]));
-    return movies.map((movie) => ({ ...movie, ...(auditsByMovie.get(`${movie.year}::${movie.original_title}`) || {}) }));
+    const merged = movies.map((movie) => ({ ...movie, ...(auditsByMovie.get(`${movie.year}::${movie.original_title}`) || {}) }));
+    const knownMovies = new Set(movies.map((movie) => `${movie.year}::${movie.original_title}`));
+    return [...merged, ...audits.filter((movie) => !knownMovies.has(`${movie.year}::${movie.original_title}`))];
   }
   function mergeVerifiedTranslations(movies, verifiedTranslations) {
     const byMovie = new Map(movies.map((movie) => [`${movie.year}::${movie.original_title}`, movie]));
@@ -82,6 +84,17 @@
   $('reveal-button').addEventListener('click', () => { answerBox.hidden = !answerBox.hidden; $('reveal-button').textContent = answerBox.hidden ? 'Reveal answer' : 'Hide answer'; });
   $('next-button').addEventListener('click', showMovie);
   $('random-button').addEventListener('click', () => { state.deck = shuffle(state.deck); showMovie(); });
+  let installPrompt;
+  const installButton = $('install-button');
+  window.addEventListener('beforeinstallprompt', (event) => { event.preventDefault(); installPrompt = event; installButton.hidden = false; });
+  installButton.addEventListener('click', async () => {
+    if (!installPrompt) return;
+    installPrompt.prompt();
+    await installPrompt.userChoice;
+    installPrompt = null;
+    installButton.hidden = true;
+  });
+  window.addEventListener('appinstalled', () => { installPrompt = null; installButton.hidden = true; });
   Promise.all([fetch('movies.json?v=10'), fetch('audited-movies.json?v=10'), fetch('verified-movies.json?v=10')]).then(async ([moviesResponse, auditsResponse, verifiedResponse]) => { if (!moviesResponse.ok || !auditsResponse.ok || !verifiedResponse.ok) throw new Error('Movie bank could not be loaded'); return [await moviesResponse.json(), await auditsResponse.json(), await verifiedResponse.json()]; }).then(([movies, audits, verifiedTranslations]) => { state.movies = uniqueTitles(mergeVerifiedTranslations(mergeAudits(movies, audits), verifiedTranslations).filter(isPlayableTranslation)); setupFilters(); setFilter('', ''); }).catch(() => { clue.textContent = 'Movie bank unavailable'; $('progress-label').textContent = 'Please refresh'; });
   if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
 })();

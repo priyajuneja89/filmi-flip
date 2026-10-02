@@ -3,7 +3,7 @@
 body { margin:0; color:var(--ink); min-height:100vh; background:radial-gradient(circle at 10% 20%, rgba(247,189,53,.22) 0 12%, transparent 12.5%), radial-gradient(circle at 92% 90%, rgba(217,79,55,.13) 0 13%, transparent 13.5%), var(--cream); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
 button,input { font:inherit; } button { cursor:pointer; }
 .app-shell { width:min(100%, 830px); min-height:100vh; margin:auto; padding:24px 28px 28px; display:flex; flex-direction:column; }
-.topbar { display:flex; justify-content:space-between; align-items:center; }
+.topbar { display:flex; justify-content:space-between; align-items:center; gap:12px; }.header-actions { display:flex; align-items:center; gap:8px; }.install-button { border:1px solid var(--ink); border-radius:999px; background:var(--yellow); color:var(--ink); padding:10px 14px; font-weight:700; }
 .brand { color:var(--ink); text-decoration:none; display:flex; align-items:center; gap:10px; font-size:14px; font-weight:800; letter-spacing:1.2px; line-height:.83; }
 .brand-mark { display:grid; place-items:center; width:39px; height:39px; border:2px solid var(--ink); border-radius:50%; background:var(--yellow); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; letter-spacing:-2px; }
 .filter-toggle,.secondary-action,.small-button { border:1px solid var(--ink); border-radius:999px; background:#fffdf7; color:var(--ink); font-weight:600; }

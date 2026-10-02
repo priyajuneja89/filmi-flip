@@ -14,13 +14,16 @@
   <body>
     <main class="app-shell">
       <header class="topbar">
-        <a class="brand" href="/" aria-label="Filmi Flip home">
+        <a class="brand" href="./" aria-label="Filmi Flip home">
           <span class="brand-mark">FF</span>
           <span>FILMI<br />FLIP</span>
         </a>
-        <button id="filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
-          <span aria-hidden="true">⌁</span> Year filter
-        </button>
+        <div class="header-actions">
+          <button id="install-button" class="install-button" hidden>Install app</button>
+          <button id="filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+            <span aria-hidden="true">⌁</span> Year filter
+          </button>
+        </div>
       </header>
 
       <section id="filter-panel" class="filter-panel" hidden aria-label="Year filter">
@@ -79,6 +82,6 @@
 
       <footer>Made for loud guesses, dramatic reveals, and movie nights.<br />Inspired by Sunita Bindra, my aunt.</footer>
     </main>
-    <script src="app.js?v=8"></script>
+    <script src="app.js?v=11"></script>
   </body>
 </html>
